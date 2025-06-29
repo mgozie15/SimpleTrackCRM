@@ -1,0 +1,50 @@
+[31-May-2025 08:59:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home/rawrear/public_html/connection.php:8
+Stack trace:
+#0 /home/rawrear/public_html/connection.php(8): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'crm')
+#1 /home/rawrear/public_html/login.php(3): include('/home/rawrear/p...')
+#2 {main}
+  thrown in /home/rawrear/public_html/connection.php on line 8
+[31-May-2025 17:56:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ajmalmoon@gmail.com' for key 'email' in /home/rawrear/public_html/register.php:18
+Stack trace:
+#0 /home/rawrear/public_html/register.php(18): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/rawrear/public_html/register.php on line 18
+[16-Jun-2025 08:19:08 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column '783b32321f29aaa9bfb45a2171381197faea640591a3878553f7415193b53d7c' in 'VALUES' in /home/rawrear/public_html/register.php:24
+Stack trace:
+#0 /home/rawrear/public_html/register.php(24): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/rawrear/public_html/register.php on line 24
+[16-Jun-2025 08:46:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rawrear/public_html/vendor/phpmailer/phpmailer/src/SMTP.php:311) in /home/rawrear/public_html/register.php on line 47
+[16-Jun-2025 23:42:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ajmalmoon86@gmail.com' for key 'email' in /home/rawrear/public_html/register.php:24
+Stack trace:
+#0 /home/rawrear/public_html/register.php(24): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/rawrear/public_html/register.php on line 24
+[16-Jun-2025 23:46:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ajmalmoon86@gmail.com' for key 'email' in /home/rawrear/public_html/register.php:23
+Stack trace:
+#0 /home/rawrear/public_html/register.php(23): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/rawrear/public_html/register.php on line 23
+[16-Jun-2025 23:46:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'ajmalmoon86@gmail.com' for key 'email' in /home/rawrear/public_html/register.php:23
+Stack trace:
+#0 /home/rawrear/public_html/register.php(23): mysqli_query(Object(mysqli), 'INSERT INTO use...')
+#1 {main}
+  thrown in /home/rawrear/public_html/register.php on line 23
+[17-Jun-2025 22:52:00 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:52:00 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:52:00 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../connection.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rawrear/public_html/admin/send_emails_cron.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:52:09 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:52:09 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:52:09 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../connection.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rawrear/public_html/admin/send_emails_cron.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rawrear/public_html/admin/send_emails_cron.php on line 2
+[17-Jun-2025 22:54:31 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 6
+[17-Jun-2025 22:54:31 UTC] PHP Warning:  require(../connection.php): Failed to open stream: No such file or directory in /home/rawrear/public_html/admin/send_emails_cron.php on line 6
+[17-Jun-2025 22:54:31 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../connection.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home/rawrear/public_html/admin/send_emails_cron.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/rawrear/public_html/admin/send_emails_cron.php on line 6

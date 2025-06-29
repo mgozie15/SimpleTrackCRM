@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Log_Cont form {
+    width: 380px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.Log_Cont form h2 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #1f294c;
+    font-weight: 600;
+    text-align: center;
+}
+.Log_Cont label {
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f294c;
+}
+.Log_Cont form a {
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+.Log_Cont form span {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin: 0px;
+    text-align: center;
+}
+.Log_Cont input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.Log_Cont .submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #1f294c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Log_Cont .submit-btn:hover {
+    background: #f07c63;
+}
